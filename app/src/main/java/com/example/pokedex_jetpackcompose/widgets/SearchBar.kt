@@ -47,7 +47,7 @@ fun SearchBar() {
             modifier = Modifier
                 .background(MaterialTheme.colorScheme.surface)
                 .padding(horizontal = 16.dp, vertical = 8.dp)
-        ) {
+        ){
             TextField(value = searchText, onValueChange = { searchText = it },
                 modifier = Modifier
                     .weight(1f)
@@ -64,7 +64,5 @@ fun SearchBar() {
             }
         }
     }
-
-
 
 }
